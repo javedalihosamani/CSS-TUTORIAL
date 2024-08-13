@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SELECTOR</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            section.demoClass{
+                color: blue;
+                background-color: yellow;
+                border: 1px solid black;
+                padding: 10px;
+                margin: 10px;
+                /* height: 100px; */
+            }
+
+            .heading{
+                background-color: grey;
+                display: flex;
+                justify-content: space-between;
+                height: 60px;
+                align-items: center;
+                padding: 0px 20px 0px 20px ;
+            }
+
+            .logo{
+                font-size: 1.6em;
+                color: white;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+            
+            .menu a{
+                text-decoration: none;
+                background-color: white;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>CLASS SELECTOR</h1>
+        </center>
+        <hr>
+
+        <h2>EXAMPLE-1</h2>
+
+        <div class="demoClass">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae repellendus ad earum ab, unde, ducimus nobis sequi voluptates nihil optio odit natus deserunt itaque eum iure quidem, incidunt aut architecto.</p>
+        </div>
+
+        <div class="demoClass">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae repellendus ad earum ab, unde, ducimus nobis sequi voluptates nihil optio odit natus deserunt itaque eum iure quidem, incidunt aut architecto.</p>
+        </div>
+
+        <section class="demoClass">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae repellendus ad earum ab, unde, ducimus nobis sequi voluptates nihil optio odit natus deserunt itaque eum iure quidem, incidunt aut architecto.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae repellendus ad earum ab, unde, ducimus nobis sequi voluptates nihil optio odit natus deserunt itaque eum iure quidem, incidunt aut architecto.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae repellendus ad earum ab, unde, ducimus nobis sequi voluptates nihil optio odit natus deserunt itaque eum iure quidem, incidunt aut architecto.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae repellendus ad earum ab, unde, ducimus nobis sequi voluptates nihil optio odit natus deserunt itaque eum iure quidem, incidunt aut architecto.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae repellendus ad earum ab, unde, ducimus nobis sequi voluptates nihil optio odit natus deserunt itaque eum iure quidem, incidunt aut architecto.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae repellendus ad earum ab, unde, ducimus nobis sequi voluptates nihil optio odit natus deserunt itaque eum iure quidem, incidunt aut architecto.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae repellendus ad earum ab, unde, ducimus nobis sequi voluptates nihil optio odit natus deserunt itaque eum iure quidem, incidunt aut architecto.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae repellendus ad earum ab, unde, ducimus nobis sequi voluptates nihil optio odit natus deserunt itaque eum iure quidem, incidunt aut architecto.</p>
+        </section>
+
+        <h2>EXAMPLE-2</h2>
+        
+        <header class="heading">
+            <a href="#" class="logo">Logo Here</a>
+
+            <nav class="menu">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+
+        <h2>Assignment</h2>
+        
+        <section class="container">
+            <div class="home">
+                <h1 class="name">John Mathew</h1>
+                <h3 class="job">Developer</h3>
+            </div>
+
+            <div class="about">
+                <h3 class="about-title">About Me</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni est non ipsum? Dicta odio iusto voluptas consectetur illo porro, repellendus assumenda incidunt facere sequi labore tempora cupiditate doloribus ipsam soluta.</p>
+            </div>
+
+            <div class="contact">
+                <h3 class="contact-title">Contact Us</h3>
+            </div>
+        </section>
+    </body>
+</html>
