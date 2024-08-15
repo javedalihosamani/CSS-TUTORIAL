@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SELECTOR</title>
+        <style>
+            h3[title |='header']{
+                background-color: lightgray;
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>CSS Attribute [attribute|="value"] selector</h1>
+            <p>Represents elements with an attribute name of attribute whose value can be exactly value or can begin with value immediately followed by a hyphen</p>
+        </center>
+
+        <hr>
+
+        <h2>Example..!</h2>
+        <div>
+            <h3 title="header-first">This is FIRST H3 tag..!</h3>
+            <h3 title="header-second">This is SECOND H3 tag..!</h3>
+            <h3 title="headerheader">This is THIRD H3 tag..!</h3>
+            <h3 title="header header">This is FOURTH H3 tag..!</h3>
+            <h3 title="header headerrrr">This is FOURTH H3 tag..!</h3>
+        </div>
+    </body>
+</html>

@@ -4,6 +4,17 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>SELECTOR</title>
+        <style>
+            button {
+            padding: 10px 12px;
+            font-size: 1.4rem;
+            cursor: pointer;
+            }
+            button.act{
+                background-color: slateblue;
+                color: white;
+            }
+        </style>
     </head>
     <body>
         <center>
@@ -18,5 +29,12 @@
         </div>
     
         <a href="#" class="act">Link</a>
+
+        <script>
+            let button = document.querySelector("button");
+            button.addEventListener("click", function(){
+                button.classList.toggle("act");
+            });
+        </script>
     </body>
 </html>
