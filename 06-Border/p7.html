@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BORDER</title>
+        <style>
+            .container>div{
+                width: 100px;
+                height: 100px;
+                margin: 20px;
+                border-width: 10px;
+                border-color: deepskyblue;
+                border-style: solid;
+            }
+            .b1{border-radius: 10px;}
+            .b2{border-radius: 20px;}
+            .b3{border-radius: 50%;}
+            .b4{
+                border-top-right-radius: 50%;
+                border-bottom-right-radius: 50%;
+                border-top-color: red;
+            }
+            .b5 {
+                border-top-left-radius: 50%;
+                border-bottom-left-radius: 50%;
+            }
+            .b6 {
+                border-top-left-radius:25px;
+                border-bottom-right-radius: 25px;
+            }
+            .b7 {
+                border-top-right-radius:25px;
+                border-bottom-left-radius: 25px;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>Radius</h1>
+        </center>
+        <hr>
+
+        <div class="container">
+            <div class="b1">First</div>
+            <div class="b2">Second</div>
+            <div class="b3">Third</div>
+            <div class="b4">Fourth</div>
+            <div class="b5">Fifth</div>
+            <div class="b6">Sixth</div>
+            <div class="b7">Seventh</div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>COLUMNS</title>
+        <style>
+            p{
+                text-align: justify;
+                margin: 20px;
+                columns: 3;
+                column-rule: 4px solid #ff4500;
+                column-gap: 50px;
+            }
+            .b1>p{
+                column-fill: auto;
+            }
+            .b2>p{
+                column-fill: balance;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>column-fill, columns, column-rule</h1>
+        </center>
+        <hr>
+
+        <section class="container">
+            <div class="b1">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt aspernatur nam, quod expedita, aliquid rem totam repudiandae a exercitationem eaque illo? Quidem labore id sunt non cumque quo beatae eveniet Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sit optio autem ipsa debitis officiis est, atque error ducimus consequuntur consectetur asperiores doloribus. Voluptate adipisci inventore quia optio, ipsum reiciendis. </p>
+            </div>
+    
+            <div class="b2">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat quasi nesciunt quaerat voluptate voluptates a quam itaque atque sapiente, similique minima, ab, reprehenderit nihil illum mollitia hic officia aspernatur modi!</p>
+            </div>
+        </section>
+    </body>
+</html>

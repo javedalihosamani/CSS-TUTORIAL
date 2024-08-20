@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>OPACITY</title>
+        <style>
+            .container {
+                display: flex;
+            }
+            .card {
+                background-color: red;
+                color:#fff;
+                padding: 20px;
+                cursor: pointer;
+                transition: all 2s;
+                margin: 20px;
+            }
+            /* .card:hover {
+                opacity: 0.2;
+                filter: blur(3px);
+            } */
+             .container:hover .card{
+                opacity: 0.2;
+                filter: blur(3px);
+             }
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>filter</h1>
+        </center>
+        <hr>
+
+        <section class="container">
+            <div class="card">
+                <h3>Card heading</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium nisi et, unde obcaecati similique quod reiciendis debitis iusto repudiandae in beatae repellat saepe officiis possimus ducimus assumenda officia voluptatibus magni!</p>
+            </div>
+            <div class="card">
+                <h3>Card heading</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium nisi et, unde obcaecati similique quod reiciendis debitis iusto repudiandae in beatae repellat saepe officiis possimus ducimus assumenda officia voluptatibus magni!</p>
+            </div>
+            <div class="card">
+                <h3>Card heading</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium nisi et, unde obcaecati similique quod reiciendis debitis iusto repudiandae in beatae repellat saepe officiis possimus ducimus assumenda officia voluptatibus magni!</p>
+            </div>
+        </section>
+    </body>
+</html>
