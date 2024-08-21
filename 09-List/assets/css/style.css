@@ -1,0 +1,70 @@
+/* *{
+    padding: 0%;
+    margin: 0%;
+} */
+/* Title Class */
+.jumbotron{
+    background-color: #8e44ad;
+    border-radius: 10px;
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 3px 3px 3px #ccc;
+}
+/* Navbar */
+.navbar{
+    background-color: teal;
+}
+.navbar>ul{
+    list-style-type:none;
+    float:right;
+}
+.navbar>ul>li{
+    display: inline-block;
+    padding: 20px;
+}
+.navbar>ul>li>a{
+    color: #fff;
+    text-decoration: none;
+}
+.navbar>ul>li:hover{
+    background-color: #fff;
+}
+.navbar>ul>li:hover a{
+    color: teal;
+}
+.navbar>img{
+    height: 54px;
+}
+/* LIST MARKER */
+.list-marker-position>ol>li{
+    background-color: teal;
+    padding: 20px;
+    margin-bottom: 20px;
+    list-style-position: inside;
+}
+.list-marker-position>ol>li>a{
+    color: #fff;
+    text-decoration: none;
+}
+.list-marker-position>ol>li::marker{
+    color: yellow;
+    font-size: 30px;
+    font-weight: lighter;
+}
+/* LIST ICON */
+.list-icon>ul>li{
+    list-style-image: url(../images/list-icon.png);
+}
+/* LIST SHORT HAND */
+.list-shorthand>ul>li{
+    background-color: teal;
+    padding: 20px;
+    margin-bottom: 20px;
+
+    /* list-style-type:none;
+    list-style-position: inside;
+    list-style-image:url(../images/marker.png); */
+
+    list-style: decimal inside url(../images/list-icon.png);
+}
