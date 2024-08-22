@@ -1,0 +1,30 @@
+/* P1.HTML CODE */
+section{
+    background-color: lightgray;
+    padding: 20px;
+}
+div{
+    /* height: 100px;
+    width: 100px; */
+    margin: 20px;
+    color: #fff;
+    padding: 20px;
+    background-color: gray;
+    text-align: center;
+
+}
+.container1{display: block;}
+.container2{display: flex;}
+
+/* P2.CSS CODE */
+.container3{display: inline-flex;}
+/* .container4>ul{
+    display: inline-flex;
+} */
+.container4>ul>li{
+    background-color: grey;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}

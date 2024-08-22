@@ -1,0 +1,54 @@
+.jumbotron{
+    background-color: gray;
+    color: lightgray;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #ccc;
+}
+
+/* COMMON TABLE CODE */
+table, th, td{
+    border: 2px solid blue;
+    padding: 20px;
+    border-collapse: collapse;
+}
+
+/* EMPTY TABLE CELL */
+.empty-cell-table{
+    empty-cells: hide;
+}
+
+/* ODD-EVEN TABLE */
+/* .odd-even-table{
+    background-color: darkgray;
+} */
+.odd-even-table tr:nth-child(odd){
+    background-color: tomato;
+}
+.odd-even-table tr:nth-child(even){
+    background-color: rgb(187, 88, 70);
+}
+.odd-even-table tr:hover{
+    background-color: #ad9a9a;
+}
+.odd-even-table th{
+    background-color: #87ceeb;
+}
+.odd-even-table>caption{
+    color: #808080;
+    font-weight: bold;
+    caption-side: bottom; /* top | bottom | block-start | block-end | inline-start | inline-end */
+}
+.odd-even-table td{
+    height: 100px;
+    vertical-align:middle; /* baseline | sub | super | text-top | text-bottom | middle | top | bottom | */
+}
+
+/* TABLE LAYOUT */
+.layout-table{
+    width: 10%;
+    table-layout: fixed;
+}
+.layout-table th, .layout-table td{
+    overflow: scroll;
+}
