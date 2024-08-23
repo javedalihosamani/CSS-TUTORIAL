@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DISPLAY</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <center>
+            <h1>DISPLAY PROPERTIES</h1>
+        </center>
+        <hr>
+
+        <section class="container5">
+            <div>First</div>
+            <div>Second</div>
+            <div>Third</div>
+        </section>
+
+        <hr>
+
+        <main>
+            <p>Choose Display Value</p>
+            <select name="display" id="display" onchange="readValue()">
+                <option disabled selected>----- choose value -----</option>
+                <option>block</option>
+                <option>inline-block</option>
+                <option>flex</option>
+                <option>inline-flex</option>
+                <option>none</option>
+                <option>grid</option>
+                <option>inline-grid</option>
+                <option>table</option>
+                <option>list-item</option>
+            </select>
+        </main>
+
+        <script>
+            let section = document.querySelector("section");
+            let select = document.querySelector("select");
+            // console.log("Section", section);
+
+            function readValue(){
+                let displayValue = select.value;
+                //console.log(displayValue);
+                section.style.display = displayValue;
+            }
+        </script>
+    </body>
+</html>
