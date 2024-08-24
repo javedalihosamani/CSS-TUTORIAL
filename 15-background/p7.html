@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BACKGROUND</title>
+        <style>
+            .container{
+                background-color: lightcyan;
+                padding: 20px;
+            }
+            .container>div{
+                height: 300px;
+                margin: 20px;
+                padding: 20px;
+                background-image: url("assets/images/panel1.jpeg");
+                background-repeat: no-repeat;
+            }
+            .container>div>h1{color: #fff;font-size: 30px;}
+
+            .b1{
+                background-color: red;
+                background-blend-mode: normal;
+            }
+            .b2{
+                background-color: red;
+                background-blend-mode: multiply;
+            }
+            .b3{
+                background-color: red;
+                background-blend-mode: hard-light;
+            }
+            .b4{
+                background-color: red;
+                background-blend-mode: difference;
+            }
+            .b5{
+                /* background-image: url("assets/images/panel1.jpeg"), url("assets/images/panel2.jpg"); */
+                background-color: purple;
+                background-blend-mode: lighten;
+            }
+            .b6{
+                background-size: cover;
+            }
+            .b6>h1{
+                text-align: center;
+                text-transform: uppercase;
+                line-height: 1.9;
+                background-color: green;
+                mix-blend-mode: multiply;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>BACKGROUND-BLEND-MODE</h1>
+        </center>
+        <hr>
+
+        <section class="container">
+            <div class="b1">
+                <h1>Normal</h1>
+            </div>
+            <div class="b2">
+                <h1>Multiply</h1>
+            </div>
+            <div class="b3">
+                <h1>Hard-light</h1>
+            </div>
+            <div class="b4">
+                <h1>difference</h1>
+            </div>
+            <div class="b5">
+                <h1>lighten</h1>
+            </div>
+            <div class="b6">
+                <h1>Outdoor Club</h1>
+            </div>
+        </section>
+    </body>
+</html>

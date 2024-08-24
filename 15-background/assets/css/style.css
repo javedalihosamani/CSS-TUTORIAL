@@ -1,0 +1,94 @@
+/* Universal Selector */
+*{padding: 0%;margin: 0%;}
+
+/* Navbar */
+header{
+    background-color: rgb(51, 48, 48);
+    box-shadow: 3px 3px 3px #ccc;
+}
+header>nav>ul{
+    list-style-type: none;
+    float: right;
+}
+header>nav>ul>li{
+    display: inline-block;
+    padding: 20px;
+}
+header>nav>ul>li:hover{background-color: #fff;}
+header>nav>ul>li>a{color: #fff; text-decoration: none;}
+header>nav>ul>li:hover a{color: rgb(51, 48, 48);}
+header>nav>img{height: 54px;}
+
+/* COMMON BANNER */
+.common-banner{
+    height: 80vh;
+    color: #fff;
+    padding: 20px;
+}
+.common-banner>h1{
+    text-align: center; 
+    font-size: 60px;
+    text-shadow: 3px 3px 3px #ddd;
+}
+.common-banner>h1:hover{color: black;}
+
+/* BANNER-1(P2.HTML)*/
+.banner1{background-color: bisque;}
+
+/* BANNER-2 (P3.HTML)*/
+.banner2, .banner3{
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat; /* no-repeat,repeat,repeat-x,repeat-y */
+    background-position: center; /* top left, top center, top right, center left, center, center right, bottom left, bottom center, bottom right */
+    background-size: 100%; /* cover - whole screen width, contain - vertical expansion */
+}
+
+/* BANNER-3 (P4.HTML)*/
+.banner3{
+    height: auto;
+    background-attachment: fixed;
+}
+
+/* P5.HTML */
+.container{
+    background-color:lightgray;
+    padding: 50px;
+    display: flex;
+}
+.container>div{
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+    background-color: gray;
+    border: 5px dashed red;
+    color: white;
+}
+.container>div>h2{
+    color: red;
+    color: inherit;
+}
+.b1{background-clip:content-box;}
+.b2{background-clip:padding-box;}
+.b3{background-clip:border-box;}
+.b4{background-clip:text;}
+
+/* P6.HTML */
+.c1{
+    /* background-image: url(../images/origin.jpg); */
+    background-image: url(../images/panel1.jpeg);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+.c2{
+    /* background-image: url(../images/origin.jpg); */
+    background-image: url(../images/panel1.jpeg);
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+}
+.c3{
+    /* background-image: url(../images/origin.jpg); */
+    background-image: url(../images/panel1.jpeg);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+}
