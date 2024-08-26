@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PSEUDO-CLASS</title>
+        <style>
+            nav{
+                background-color: #ddd;
+                padding: 20px;
+                text-align: center;
+            }
+            nav>a{
+                padding: 10px 12px;
+                text-decoration: none;
+                background-color: #222;
+                color: #fff;
+            }
+            nav>a:hover {
+                background-color: #fff;
+                color:#222;
+            }
+            nav>a:focus {
+                background-color: orange;
+                color:#fff;
+            }
+            .container{
+                text-align: center;
+            }
+            .container>div{background-color: beige; padding: 20px;margin: 20px;}
+            .container>div:target {
+                background-color: #222;
+                color: #fff;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1> :focus & :target </h1>
+        </center>
+        <hr>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    
+        <section class="container">
+                <div id="home">
+                    <h1>Home Section</h1>
+                </div>
+                <div id="about">
+                    <h1>About Section</h1>
+                </div>
+                <div id="contact">
+                    <h1>Contact Section</h1>
+                </div>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PSEUDO-CLASS</title>
+        <style>
+            .form-input{
+                padding: 20px;
+                border: 1px solid green;
+                outline: 1px solid green;
+            }
+            .form-input:focus{
+                border: 1px solid red;
+                outline: 1px solid red;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>:focus</h1>
+        </center>
+        <hr>
+
+        <form>
+            <label>Name</label>
+            <input type="text" name="name" id="name" class="form-input">
+
+            <br><br>
+
+            <label>Email</label>
+            <input type="email" name="email" id="email" class="form-input">
+        </form>
+    </body>
+</html>
