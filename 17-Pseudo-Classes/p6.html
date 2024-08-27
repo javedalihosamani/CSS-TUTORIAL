@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PSEUDO-CLASS</title>
+        <style>
+            input[type="radio"]:checked {
+                border:none;
+                outline: 2px solid orangered;
+            }
+            input[type="radio"]:default {
+                border:none;
+                outline: 2px solid green;
+            }
+            input[type="checkbox"]:checked {
+                border:none;
+                outline: 2px solid deepskyblue;
+            }
+            input[type="checkbox"]:default {
+                border:none;
+                outline: 2px solid green;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>:checked (radio , checkbox)  :default </h1>
+        </center>
+        <hr>
+
+        <form action="">
+            <label for="">How do you find about us?</label>
+            <label for="">
+                <input type="radio" name="source" id="source" value="google" checked> Google
+            </label>
+            <label for="">
+                <input type="radio" name="source" id="source" value="facebook"> Facebook
+            </label>
+            <label for="">
+                <input type="radio" name="source" id="source" value="linkedin"> LinkedIn
+            </label>
+        </form>
+
+        <hr>
+
+        <form action="">
+            <label for="">Choose Technologies</label>
+            <br>
+            <label for="">
+                <input type="checkbox" name="first" id="first" value="html"> HTML
+            </label>
+            <label for="">
+                <input type="checkbox" name="sec" id="sec" value="css" checked> Css
+            </label>
+            <label for="">
+                <input type="checkbox" name="third" id="third" value="js"> JavaScript
+            </label>
+        </form>
+    </body>
+</html>

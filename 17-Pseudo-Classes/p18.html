@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PSEUDO-CLASS</title>
+        <style>
+            /* input:user-valid {
+                border:2px solid green;
+                outline:none;
+            } */
+
+            input:valid {
+                border:2px solid green;
+                outline:none;
+            }
+            input:invalid {
+                border:2px solid red;
+                outline:none;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>:user-valid, :valid and :invalid </h1>
+        </center>
+        <hr>
+        
+        <form action="">
+            <label for="">Enter Email id</label>
+            <input type="email" name="email" id="email" required>
+            <span></span>
+
+            <br><br>
+
+            <label for="">Enter Password</label>
+            <input type="text" name="password" pattern="[a-zA-Z$0-9]+" id="password" required>
+        </form>
+    </body>
+</html>

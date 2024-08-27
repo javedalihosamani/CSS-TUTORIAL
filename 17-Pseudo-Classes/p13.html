@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PSEUDO-CLASS</title>
+        <style>
+            .container h1:last-of-type {
+                color: slateblue;
+            }
+        
+            .container h1:first-of-type {
+                color: gold;
+            }
+
+            .container h1:nth-of-type(3){
+                color: green;
+            }
+
+        
+            .container1 h1:last-child {
+                color: orangered;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container1">
+            <h1>Header tag 1</h1>
+            <h1>Header tag 2</h1>
+            <h1>Header tag 3</h1>
+            <h1>Header tag 4</h1>
+        </div>
+        <hr>
+
+        <div class="container">
+            <h1>Header tag 1</h1>
+                <p>para tag 1</p>
+            <h1>Header tag 2</h1>
+                <p>para tag 2</p>
+            <h1>Header tag 3</h1>
+                <p>para tag 3</p>
+            <h1>Header tag 4</h1>
+                <p>para tag 4</p>
+        </div>
+
+    </body>
+</html>
