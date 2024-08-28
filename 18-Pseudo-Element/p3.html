@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PSEUDO-ELEMENT</title>
+        <style>
+            dialog::backdrop {
+            background-color: salmon;
+        }
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>::backdrop</h1>
+        </center>
+        <hr>
+
+        <button type="button" onclick="openDialog()">Open Dialog</button>
+
+        <dialog id="dialog">
+            <h2>Dialog Box</h2>
+            <p>This is a dialog box.</p>
+            <button onclick="closeDialog()">Close</button>
+        </dialog>
+
+        <script>
+            function openDialog() {
+                document.getElementById("dialog").showModal();
+            }
+            
+            function closeDialog() {
+                document.getElementById("dialog").close();
+            }
+        </script>
+    </body>
+</html>

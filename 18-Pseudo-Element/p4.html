@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PSEUDO-ELEMENT</title>
+        <style>
+            video::cue {
+                font-size: 1.2rem;
+                color:yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>::cue</h1>
+        </center>
+        <hr>
+
+        <video src="media/video.mp4" controls height="400" width="600">
+            <track default kind="captions" srclang="en" src="p4.vtt">
+        </video>
+    </body>
+</html>

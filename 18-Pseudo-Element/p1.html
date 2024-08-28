@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PSEUDO-ELEMENT</title>
+        <style>
+            center~p::first-line{
+                color: orangered;
+                font-weight: bold;
+            }
+            center~p::first-letter {
+            font-size: 2rem;
+            color:slateblue;
+        }
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>CSS Pseudo-elements..!</h1>
+            <p>he CSS pseudo-elements allow you to style the elements or parts of the elements without adding any IDs or classes to them.</p>
+            <p>CSS3 introduced a new double-colon (::) syntax for pseudo-elements to distinguish between them and pseudo-classes.</p>
+            <p><b>selector::pseudo-element { property: value; }</b></p>
+        </center>
+        <hr>
+
+        <h3> ::first-line ::first-letter </h3>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quam culpa quas nihil numquam illo expedita cupiditate quidem rerum tempore eos iste inventore veritatis, tempora facilis a consectetur omnis alias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi numquam vel enim, ducimus autem ratione laborum pariatur, quas ad, excepturi laboriosam et minus dolor necessitatibus aperiam est perspiciatis. Optio, consequatur.</p>
+    </body>
+</html>
