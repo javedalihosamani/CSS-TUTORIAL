@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .container {
+                display: flex;
+                padding: 20px;
+            }
+
+            .container>div {
+                height: 100px;
+                width: 200px;
+                margin: 20px;
+            }
+
+            .b1 {
+                background-color: #999;
+                box-shadow: 10px 4px 4px rgba(244, 0, 4, 0.4); /* x y blur color */
+            }
+            .b2 {
+                box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            }
+            .b3 {
+                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>Box-shadow</h1>
+        </center>
+        <hr>
+ 
+        <section class="container">
+            <div class="b1">block-1</div>
+            <div class="b2">block-2</div>
+            <div class="b3">block-3</div>
+            <div class="b4">block-4</div>
+            <div class="b5">block-5</div>
+        </section>
+    </body>
+</html>

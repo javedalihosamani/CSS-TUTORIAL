@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            section{
+                background-color: lightgray;
+                padding: 30px;
+                position: relative;
+                height: 400px;
+            }
+            section>div{
+                width: 200px;
+                height: 200px;
+                border: 2px solid red;
+                margin-bottom: 20px;
+                position: absolute;
+            }
+            .b1{
+                background-color: rgb(0, 255, 255);
+                top: 50px;
+                left: 50px;
+                z-index: 1;
+            }
+            .b2{
+                background-color: rgb(0, 255, 153);
+                top: 100px;
+                left: 100px;
+                z-index: 2;
+            }
+            .b3{
+                background-color: rgb(94, 255, 0);
+                top: 150px;
+                left: 150px;
+                z-index: 3;
+            }
+            .b4{
+                background-color: rgb(255, 145, 0);
+                top: 200px;
+                left: 200px;
+                z-index: 4;
+            }
+            .b1:hover{z-index: 5;}
+            .b2:hover{z-index: 5;}
+            .b3:hover{z-index: 5;}
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>Z-INDEX</h1>
+        </center>
+        <hr>
+
+        <section>
+            <div class="b1"></div>
+            <div class="b2"></div>
+            <div class="b3"></div>
+            <div class="b4"></div>
+        </section>
+    </body>
+</html>
