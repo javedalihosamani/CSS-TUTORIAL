@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CARD</title>
+        <style>
+            /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+            *{
+                padding: 0%;
+                margin: 0%;
+            }
+            body{
+                background-color: rgb(120, 134, 161);
+            }
+            .common{
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            }
+            .card{
+                margin: 50px;
+                width: 400px;
+                background-color: #fff;
+            }
+            .card>div:first-child{margin-top: -40px;}
+            .card>div:first-child,
+            .icons{
+                background-color: cornflowerblue;
+                margin-bottom: -40px;
+            }
+            .card>div:first-child>img{
+                height: 200px;
+                width: 200px;
+                border-radius: 100%;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            }
+            .card>div:first-child>h1{
+                color: #fff;
+                padding: 20px;
+                font-size: 50px;
+            }
+            .info{
+                margin: 20px auto;
+            }
+            .info>ul{list-style: none;text-align: left;margin: 20px auto;}
+            .info>ul:first-child{margin-top: 60px;}
+            .info>ul>li,
+            .icons>ul>li{display: inline-block;}            
+            .info>ul>li>img,
+            .icons>ul>li>img{height: 50px;width: 50px; margin: auto 10px;}            
+            .info>ul>li>h2{color: cornflowerblue;}
+            .icons>ul{list-style: none;}
+        </style>
+    </head>
+    <body>
+        <center>
+            <section class="card common">
+                <div class="common">
+                    <img src="https://images.ctfassets.net/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/24e953b920a9cd0ff2e1d587742a2472/1-intro-photo-final.jpg?w=1200&h=992&fl=progressive&q=70&fm=jpg" alt="">
+                    <h1>John Doe</h1>
+                    <p>Frontend Developer</p>
+                </div>
+                <div class="info">
+                    <ul>
+                        <li>
+                            <img src="https://www.iconpacks.net/icons/2/free-click-icon-2384-thumb.png" alt="">
+                        </li>
+                        <li>
+                            <h2>5-555-666-777</h2>
+                            <span>Mobile Number</span>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <img src="https://www.iconpacks.net/icons/2/free-click-icon-2384-thumb.png" alt="">
+                        </li>
+                        <li>
+                            <h2>example@gmail.com</h2>
+                            <span>Email Address</span>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <img src="https://www.iconpacks.net/icons/2/free-click-icon-2384-thumb.png" alt="">
+                        </li>
+                        <li>
+                            <h2>www.example.cpm</h2>
+                            <span>Website Address</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="icons common">
+                    <ul>
+                        <li>
+                            <img src="https://www.iconpacks.net/icons/2/free-click-icon-2384-thumb.png" alt="">
+                        </li>
+                        <li>
+                            <img src="https://www.iconpacks.net/icons/2/free-click-icon-2384-thumb.png" alt="">
+                        </li>
+                        <li>
+                            <img src="https://www.iconpacks.net/icons/2/free-click-icon-2384-thumb.png" alt="">
+                        </li>
+                        <li>
+                            <img src="https://www.iconpacks.net/icons/2/free-click-icon-2384-thumb.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </center>
+    </body>
+</html>

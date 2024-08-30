@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BANNER-1</title>
+        <style>
+            *{
+                padding: 0%;
+                margin: 0%;
+            }
+            header{
+                border: 2px solid red;
+                padding: 20px;
+                margin: 20px;
+            }
+            header>nav>ul{
+                float: right;
+            }
+            header>nav>ul>li{
+                display: inline-block;
+                padding-right: 50px;
+                padding-left: 15px;
+            }
+            header>nav>ul>li>a{
+                color: inherit;
+                text-decoration: none;
+            }
+            header>nav>ul>li:last-child{
+                border: 2px solid grey;
+                border-radius: 10px;
+            }
+            header>nav>ul>li>a:hover{
+                color: red;
+            }
+            .banner{
+                background-color: rgb(128, 128, 213);
+                padding: 50px;
+                height: 60vh;
+                text-align: center;
+                color: #fff;
+            }
+            .banner>h1{
+                font-size: 50px;
+                margin-top: 70px;
+            }
+            .banner>input,.banner>button{
+                padding: 10px;
+                border-radius: 20px;
+                border: none;
+                margin-top: 30px;
+            }
+            .banner>input{width: 500px;}
+            .banner>button{background-color: crimson;color: inherit;}
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <span>HOSTINGER TUTORIALS</span>
+                <ul>
+                    <li><a href="#">Hosting &#8964</a></li>
+                    <li><a href="#">VPS &#8964</a></li>
+                    <li><a href="#">Email &#8964</a></li>
+                    <li><a href="#">Domain &#8964</a></li>
+                    <li><a href="#">&#128274; Login</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="banner">
+            <h1>Follow along with one of our tutorials</h1>
+            <input type="search" name="search" id="search" placeholder="Search article"> 
+            <button>Search</button>
+        </section>
+    </body>
+</html>
