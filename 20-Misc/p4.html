@@ -42,9 +42,9 @@
                 left: 200px;
                 z-index: 4;
             }
-            .b1:hover{z-index: 5;}
-            .b2:hover{z-index: 5;}
-            .b3:hover{z-index: 5;}
+            :is(.b1, .b2, .b3):hover{
+                z-index: 5;
+            }
         </style>
     </head>
     <body>
